@@ -40,7 +40,12 @@ body{
     padding:0 50px;
     padding-bottom:30px;
     gap:10px;
+    padding-right:20px;
 }
+.introduction h1{
+    font-size:40px;
+}
+
 
 .introduction .left-col{
     color:white;
@@ -50,11 +55,26 @@ body{
 }
 .introduction .right-col{
     flex:5;
-    background-color:grey;
+    background-color:rgb(31,41,55);
     display:flex;
     justify-content:center;
     align-items:center;
 }
+.right-col .content{
+    background-color:rgb(108,115,123);
+    height:150px;
+    width:550px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.content span{
+    color:white;
+    font-size:12px;
+}
+
+
 
 .left-col .signUpButton{
     display:flex;
