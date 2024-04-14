@@ -1,0 +1,166 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    height: 100%;
+    margin:0;
+}
+
+.header,.introduction,.footer{
+    background-color:rgb(31,41,55);
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    color:white;
+
+    padding: 0 50px;
+
+
+}
+.header .links-right{
+    display:flex;
+    gap:15px;
+    align-items:center;
+}
+.links-right a{
+    text-decoration:none;
+    color:white;
+}
+
+
+
+.introduction{
+    display:flex;
+    padding:0 50px;
+    padding-bottom:30px;
+    gap:10px;
+}
+
+.introduction .left-col{
+    color:white;
+    flex:5;
+    margin:0px;
+
+}
+.introduction .right-col{
+    flex:5;
+    background-color:grey;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.left-col .signUpButton{
+    display:flex;
+    background-color:rgb(64,133,243);
+    color:white;
+    border-radius:4px;
+    width:90px;
+    height:30px;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.information{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:40px;
+
+}
+
+.information .row2{
+    display:flex;
+    gap: 40px;
+    text-align:center;
+
+
+}
+.information .img{
+    border: 2px solid rgb(64,133,243);
+    border-radius:4px;
+    height:80px;
+    width:80px;
+
+}
+
+.quote{
+    display:flex;
+    background-color: rgb(229,231,245);
+    padding:50px;
+    justify-content:center;
+    align-items:center;
+}
+.quote p{
+    font-style: italic;
+    font-size:20px;
+    margin:5px;
+}
+.quote .content{
+    display:flex;
+    flex-direction:column;
+    width:600px;
+    height:100px;
+    color:rgb(41,50,64)
+
+}
+
+.content .author{
+    display:flex;
+    margin-left: 380px;
+    color:black;
+    font-weight: bold;
+
+}
+.signUp{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.signupBox{
+    padding:30px;
+    display:flex;
+    background-color:rgb(64,133,243);
+    margin:50px;
+    width:800px;
+    border-radius:6px;
+    color:white;
+}
+.signupBox .col1{
+    flex:5
+}
+.signupBox .col2{
+    flex:5;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.signupBox button{
+    background-color:rgb(64,133,243);
+    color:white;
+    border:2px solid white;
+    width:80px;
+    height:30px;
+    border-radius:6px;
+
+
+}
+
+.footer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    font-size:15px;
+    padding:20px;
+}
