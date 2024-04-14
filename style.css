@@ -139,7 +139,8 @@ body{
 
 .content .author{
     display:flex;
-    margin-left: 380px;
+    justify-content:flex-end;
+    /* margin-left: 380px; */
     color:black;
     font-weight: bold;
 
